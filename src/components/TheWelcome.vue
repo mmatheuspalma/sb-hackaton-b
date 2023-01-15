@@ -26,7 +26,7 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>Videos</template>
 
-    You can watch <a href="https://www.youtube.com/watch?v=ZqgiuPt5QZo" target="_blank" rel="noopener"> this video</a> to learn about Vue 3 in general. This video will give you some detailed insight into the  <a href="https://www.youtube.com/watch?v=bwItFdPt-6M" target="_blank" rel="noopener">Composition API</a>.
+    You can watch <a href="https://www.youtube.com/watch?v=ZqgiuPt5QZo" target="_blank" rel="noopener"> this video</a> to learn about Vue 3 in general. This video will give you some detailed insight into the  <a href="https://www.youtube.com/watch?v=bwItFdPt-6M" target="_blank" rel="noopener">Composition API</a>. The <a href="https://www.youtube.com/watch?v=WLpLYhnGqPA" target="_blank" rel="noopener noreferrer">Design Principles of Vue 3.0</a> will teach you more about what the whole principle behind the updated framework are.
    
     <br />
   </WelcomeItem>
