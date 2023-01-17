@@ -21,6 +21,16 @@ const router = createRouter({
       path: '/ideas',
       name: 'ideas',
       component: () => import('../views/IdeaView.vue')
+    },
+    {
+      path: '/teams',
+      name: 'teams',
+      component: () => import('../views/TeamsView.vue')
+    },
+    {
+      path: '/quickstart',
+      name: 'quickstart',
+      component: () => import('../views/QuickstartView.vue')
     }
   ]
 })
