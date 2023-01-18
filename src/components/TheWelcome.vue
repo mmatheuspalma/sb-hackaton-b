@@ -17,7 +17,7 @@ import SupportIcon from './icons/IconSupport.vue'
     Vue’s
     <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
     provides you with all information you need to get started. Specifically the 
-    <a href="https://vuejs.org/api/composition-api-setup.html#basic-usage" target="_blank" rel="noopener noreferrer">Composition API</a> documentation, as well as the <a href="https://vuejs.org/examples/#todomvc" target="_blank" rel="noopener noreferrer">examples</a> are a great starting point to learn.
+    <a href="https://vuejs.org/api/composition-api-setup.html#basic-usage" target="_blank" rel="noopener noreferrer">Composition API</a> documentation, as well as the <a href="https://vuejs.org/examples/#todomvc" target="_blank" rel="noopener noreferrer">examples</a> are a great starting point to learn. 
   </WelcomeItem>
 
   <WelcomeItem>
@@ -26,7 +26,7 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>Videos</template>
 
-    You can watch <a href="https://www.youtube.com/watch?v=ZqgiuPt5QZo" target="_blank" rel="noopener"> this video</a> to learn about Vue 3 in general. This video will give you some detailed insight into the  <a href="https://www.youtube.com/watch?v=bwItFdPt-6M" target="_blank" rel="noopener">Composition API</a>. The <a href="https://www.youtube.com/watch?v=WLpLYhnGqPA" target="_blank" rel="noopener noreferrer">Design Principles of Vue 3.0</a> will teach you more about what the whole principle behind the updated framework are.
+    You can watch <a href="https://www.youtube.com/watch?v=ZqgiuPt5QZo" target="_blank" rel="noopener"> this video</a> to learn about Vue 3 in general. This video will give you some detailed insight into the  <a href="https://www.youtube.com/watch?v=bwItFdPt-6M" target="_blank" rel="noopener">Composition API</a>. The <a href="https://www.youtube.com/watch?v=WLpLYhnGqPA" target="_blank" rel="noopener noreferrer">Design Principles of Vue 3.0</a> will teach you more about what the whole principle behind the updated framework are. And this is a super fast <a href="https://www.youtube.com/watch?v=nhBVL41-_Cw&t=31s" target="_blank" rel="noopener noreferrer">2-minute video</a> about Vue in general.
    
     <br />
   </WelcomeItem>

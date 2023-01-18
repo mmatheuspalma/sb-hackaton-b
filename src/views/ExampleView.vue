@@ -56,21 +56,22 @@ const range = ref([30, 60]);
 const activities = [
   {
     content: "Hackathon Kickoff",
-    timestamp: "2023-01-22",
+    timestamp: "2023-01-24",
   },
   {
     content: "Hacking away",
-    timestamp: "2023-01-22",
+    timestamp: "2023-01-25",
   },
   {
-    content: "Hackaton closing ceremony",
-    timestamp: "2023-01-22",
+    content: "Hackathon closing ceremony",
+    timestamp: "2023-02-01",
   },
 ];
 
 // click event & partyjs
-const clickButton = (e) => {
-  party.confetti(e.target, {
+const clickButton = (event: Event) => {
+  const el = event.target as HTMLInputElement
+  party.confetti(el, {
     shapes: ["sb", "roundedSquare"],
   });
 };

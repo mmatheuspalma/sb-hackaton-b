@@ -5,7 +5,7 @@ import Item from '../components/Item.vue'
 <template>
   <main>
     <h1>Ideas</h1>
-    <p>These are just some input ideas to get you started off.</p>
+    <p>These are just some input ideas to get you started off. The focus of the hackathon should be to use the Vue composition API.</p>
     <Item>
       <template #heading>Meditation timer</template>
       A timer for taking a break that plays some sound or visual effect, <a href="https://thezen.zone/" target="_blank" rel="noopener noreferrer">example</a>
@@ -15,7 +15,7 @@ import Item from '../components/Item.vue'
       A bot that emulates meeting someone in the office kitchen giving funny or weird comments like: "The printer on the first floor is out of ink, we've ordered some more but don't expect it to work before Wednesday.", <a href="https://github.com/tholman/office-simulator" target="_blank" rel="noopener noreferrer">example</a>
     </Item>
     <Item>
-      <template #heading>E-Commerce template</template>
+      <template #heading>Build an E-Commerce page</template>
       Allows the use to browse and purchase products, build some example components in vue 3 <a href="https://demo.vercel.store/" target="_blank" rel="noopener noreferrer">example</a>
     </Item>
     <Item>
@@ -36,7 +36,15 @@ import Item from '../components/Item.vue'
     </Item>
     <Item>
       <template #heading>Rebuild Storyblok</template>
-      Pick some parts of Storyblok and rebuild them in Vue 3. 
+      Pick some parts of Storyblok (app or website) and rebuild them in Vue 3 or  create something you wish would be a part of the Storyblok App 
+    </Item>
+    <Item>
+      <template #heading>Rebuild a platform</template>
+      Recreate parts of for example a social media platform in Vue 3.
+    </Item>
+    <Item>
+      <template #heading>A quiz game (I would rather..?)</template>
+      Createa simple quiz game that allows some form of question input and result
     </Item>
   </main>
 </template>
