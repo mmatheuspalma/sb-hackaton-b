@@ -30,6 +30,7 @@ import Item from '../components/Item.vue'
       <template #heading>Group C - (supported by Lisi)</template>
       <p>25.1.2023 - Wednesday - UTC 1pm</p>
       <ul>
+        <li>Eunjae Lee (Vue Lead)</li>
         <li>Carolina Faria (Vue Lead)</li>
         <li>Facundo Giuliani</li>
         <li>Jessica Furtado</li>
