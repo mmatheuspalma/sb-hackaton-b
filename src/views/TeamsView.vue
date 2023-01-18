@@ -50,7 +50,7 @@ import Item from '../components/Item.vue'
       <template #heading>Group E - (supported by Lisi)</template>
       <p>26.1.2023 - Thursday - UTC 1pm</p>
       <ul>
-        <li>Emanuel Goncales</li>
+        <li>Emanuel Goncales (Vue Lead)</li>
         <li>Silas Merdasa</li>
         <li>Manuel Schroeder</li>
         <li>Edo Sandon</li>
