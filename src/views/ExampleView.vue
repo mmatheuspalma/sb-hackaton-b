@@ -45,9 +45,10 @@
 import { ref } from "vue";
 import party from "party-js";
 import { useWindowSize } from '@vueuse/core';
-import { useDraggable } from '@vueuse/core'
+import { useDraggable } from '@vueuse/core';
+import imageUrl from '@/assets/logo-square.svg';
 
-party.resolvableShapes["sb"] = `<img src="/src/assets/logo-square.svg"/>`;
+party.resolvableShapes["sb"] = `<img src="${imageUrl}"/>`;
 
 // element plus js
 const rating = ref(null);
