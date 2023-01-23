@@ -33,7 +33,6 @@ import Item from '../components/Item.vue'
         <li>Eunjae Lee (Vue Lead)</li>
         <li>Carolina Faria (Vue Lead)</li>
         <li>Facundo Giuliani</li>
-        <li>Jessica Furtado</li>
         <li>Gustavo Previatto</li>
       </ul>
     </Item>

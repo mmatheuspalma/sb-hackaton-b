@@ -17,7 +17,7 @@ import SupportIcon from './icons/IconSupport.vue'
     Vue’s
     <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
     provides you with all information you need to get started. Specifically the 
-    <a href="https://vuejs.org/api/composition-api-setup.html#basic-usage" target="_blank" rel="noopener noreferrer">Composition API</a> documentation, as well as the <a href="https://vuejs.org/examples/#todomvc" target="_blank" rel="noopener noreferrer">examples</a> are a great starting point to learn. 
+    <a href="hhttps://vuejs.org/guide/extras/composition-api-faq.html" target="_blank" rel="noopener noreferrer">Composition API</a> guide, as well as the <a href="https://vuejs.org/examples/#todomvc" target="_blank" rel="noopener noreferrer">examples</a> are a great starting point to learn. You can also check out <a href="https://vueschool.io/" target="_blank" rel="noopener noreferrer">Vue School</a> and <a href="https://vuedose.tips/articles" target="_blank" rel="noopener noreferrer">Vue Dose</a> aswell as <a href="https://next.awesome-vue.js.org/" target="_blank" rel="noopener noreferrer">Awesome Vue</a> for more resources.
   </WelcomeItem>
 
   <WelcomeItem>
@@ -55,6 +55,6 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>Thanks for taking part!</template>
 
-    We're happy you're joining the hackathon! Leave us some feedback in this form.
+    We're happy you're joining the hackathon and are looking forward to see what you'll build :) 
   </WelcomeItem>
 </template>

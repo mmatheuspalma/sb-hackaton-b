@@ -18,7 +18,7 @@ import Item from '../components/Item.vue'
       <p>Use this time to brainstorm ideas and come up with a concept for the project, you can check the idea page for some ideas. Have team members share their ideas and vote on the best concept.</p>
     </Item>
     <Item>
-      <template #heading>2 - 3 hours - Brainstorming</template>
+      <template #heading>2 - 3 hours - Hacking</template>
       <p>Begin working on the project, with each team members having some clear assignment.</p>
     </Item>
     <Item>
