@@ -6,6 +6,8 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <header>
     <img alt="Storyblok Logo" class="logo" src="@/assets/logo.svg" width="158" height="33" />
+    <img alt="Storyblok Logo" class="logo-square" src="@/assets/logo-square.svg" width="158" height="33" />
+
 
     <div class="wrapper">
       <HelloWorld msg="Vue 3 Internal Hackathon" />
@@ -32,6 +34,10 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+}
+
+.logo-square {
+  display: none;
 }
 
 nav {
