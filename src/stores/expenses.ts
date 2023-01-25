@@ -11,6 +11,7 @@ export type Expense = {
 
 export const useExpensesStore = defineStore('expenses', () => {
   let expenses = reactive<Expense[]>([])
+  const isEditing = ref(false)
   const categories = ref([
     {
       value: 'food',
@@ -32,7 +33,7 @@ export const useExpensesStore = defineStore('expenses', () => {
 
   const currentId = computed((id) => {
     return expenses.find(item => item.id === id)
-  }) 
+  })
 
   function addExpense(expense: Expense) {
     expenses.push(expense)
@@ -46,11 +47,17 @@ export const useExpensesStore = defineStore('expenses', () => {
     delete expenses[index]
   }
 
+  function toggleEditing(status: boolean) {
+    isEditing.value = status || !isEditing.value
+  }
+
   return {
     expenses,
     categories,
+    isEditing,
     addExpense,
     updateExpense,
-    removeExpense
+    removeExpense,
+    toggleEditing
   }
 })

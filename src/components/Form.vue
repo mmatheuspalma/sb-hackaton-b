@@ -1,5 +1,5 @@
 <template>
-  <div v-if="isEditing" class="form">
+  <div class="form">
     <header>Add Expense</header>
     <form @submit.prevent="handleExpense">
       <div>
@@ -28,15 +28,12 @@
 <script>
 import { ref, watch } from 'vue'
 import UUID from 'simple-uuid'
-
 import { useExpensesStore } from '@/stores/expenses'
-
 import { useRouter, useRoute } from 'vue-router'
-
 
 export default {
   setup(_, ctx) {
-    const { categories, addExpense, updateExpense, isEditing } = useExpensesStore()
+    const { categories, addExpense, updateExpense } = useExpensesStore()
 
     const today = new Date()
     const todayYear = today.getFullYear()
@@ -51,12 +48,19 @@ export default {
 
     const route = useRoute()
 
-    watch(
-      () => route.params.id,
-      async newId => {
-        const item = currentId()
-      }
-    )
+    // watch(
+    //   () => route.params.id,
+    //   async newId => {
+    //     const item = currentId()
+    //   }
+    // )
+
+    const resetData = () => {
+      item.value = ''
+      category.value = 'health'
+      amount.value = 0
+      date.value = defaultDate
+    }
     
     function handleExpense() {
       addExpense({
@@ -66,10 +70,8 @@ export default {
         date: date.value,
         category: category.value
       })
-      item.value = ''
-      category.value = 'health'
-      amount.value = 0
-      date.value = defaultDate
+
+      resetData()
       ctx.emit('close')
     }
 
@@ -79,7 +81,7 @@ export default {
       categories,
       amount,
       date,
-      handleExpense
+      handleExpense,
     }
   },
 }
