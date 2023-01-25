@@ -17,6 +17,7 @@
     "element-plus": "^2.2.28",
     "party-js": "^2.2.0",
     "pinia": "^2.0.28",
+    "simple-uuid": "^0.0.1",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },

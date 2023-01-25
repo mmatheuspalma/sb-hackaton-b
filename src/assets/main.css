@@ -12,3 +12,7 @@ a,
     text-decoration: underline;
   }
 }
+
+#app {
+  min-height: 100vh;
+}
