@@ -19,14 +19,15 @@
 .layout {
   height: 100%;
   width: 100%;
-
   background: blue;
 }
 
 .header {
-  height: 40px;
+  display: flex;
+  align-items: center;
+  height: 50px;
   width: 100%;
-
+  padding: 16px;
   background-color: #000;
 }
 </style>
